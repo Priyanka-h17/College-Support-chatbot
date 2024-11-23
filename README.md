@@ -33,10 +33,29 @@ A Python-based chatbot designed to assist college students and staff with common
    pip install nltk scikit-learn
 3. **Download the necessary NLTK data**
 
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
+   ```python
+   import nltk
+   nltk.download('punkt')
+   nltk.download('wordnet')
+   
+## **How to Run**
+
+1. Ensure you have `intents.json` in the project directory.
+2. Run the chatbot application:
+   ```bash
+   python chatbot.py
+
+## **Project Structure**
+
+```plaintext
+├── chatbot.py          # Main application script
+├── intents.json        # Contains chatbot intents and responses
+├── table.json          # JSON data for table display
+├── requirements.txt    # Python dependencies
+├── .gitignore          # Ignored files and directories
+├── README.md           # Project description and instructions
+
+
 
 
 
