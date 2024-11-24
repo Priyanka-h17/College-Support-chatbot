@@ -1,0 +1,45 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+*.env
+.env/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+*.virtualenv
+
+# NLTK data cache
+nltk_data/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Python packaging files
+*.egg-info/
+dist/
+build/
+*.egg
+
+# JSON files with sensitive or large data
+table.json
+intents.json
+
+# Files with absolute paths
+C:/Users/Priyanka H/Desktop/College Chatbot/
+
+# Miscellaneous
+*.bak
+*.swp
