@@ -1,0 +1,17 @@
+# GUI Library
+tk
+
+# JSON Parsing and Utilities
+jsonschema
+
+# NLTK for Natural Language Processing
+nltk
+
+# Scikit-learn for Machine Learning
+scikit-learn
+
+# Additional Utilities
+regex
+
+# Web Browser Module for Opening Links (Builtin Module - No installation needed)
+# Python Standard Library
