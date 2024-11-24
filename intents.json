@@ -766,8 +766,7 @@
                 {"USN": "1NC21CS062", "Candidate Name": "NISHANT KUMAR", "Gender": "MALE"},
                 {"USN": "1NC21CS063", "Candidate Name": "NITHISH GOWDA G A", "Gender": "MALE"},
                 {"USN": "1NC21CS064", "Candidate Name": "P MANJUNATH", "Gender": "MALE"},
-                {"USN": "1NC21CS065", "Candidate Name": "PALALA LEKHA PATHIPATI", "Gender": "FEMALE"},
-                
+                {"USN": "1NC21CS065", "Candidate Name": "PALALA LEKHA PATHIPATI", "Gender": "FEMALE"},             
 
     {"USN": "1NC21CS066", "Candidate Name": "PARASHURAMASINGH", "Gender": "MALE"},
     {"USN": "1NC21CS067", "Candidate Name": "LIJITHA", "Gender": "FEMALE"},
@@ -1187,11 +1186,6 @@
                             ]
                             
                     
-                    
-                
-
-
-
 
                 }  
                       ]   },
@@ -1251,9 +1245,7 @@
                         ],
                         "responses": [
                             "The campus WiFi network is designed to provide reliable internet connectivity to students, faculty, and staff. However, occasional connectivity issues may arise, which are usually promptly addressed by the IT department."
-                        ]
-                
-            
+                        ]            
         
                 },
                 {
