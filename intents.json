@@ -1,0 +1,1316 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+    
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Priyanka and Suprita developed me in 2024, for their mini project"
+                       ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me NCET(CSE) Chatbot.",
+                                "I'm College Enquiry Chatbot",
+                                "I'm NCET(CSE) College Enquiry Chatbot"
+            ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 9am-4:10pm Monday-Saturday, First and Third Saturday is declared as holiday"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+    
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 8067462700 For general enquiry"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in NCET",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in NCET",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at NCET?",
+                                "branches available at NCET?",
+                                "what are the courses in NCET?",
+                                "what are branches in NCET?",
+                                "what are courses in NCET?",
+                                "branches available in NCET?",
+                                "can you tell me the courses available in NCET?",
+                                "can you tell me the branches available in NCET?"
+                              
+                        ],
+                        "responses": [
+                                "Available branches in NCET are Computer Science Engineering, Electronics and communications Engineering, Information Science Engineering,Artificial Intelligence And Machine Learning Engineering,DataScience Engineering, Civil Engineering "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees",
+                                "fees fe",
+                                "fees se",
+                                "fees te",
+                                "fees be",
+                                "fees me",
+                                "fees comps",
+                                "fees it",
+                                "fees mech",
+                                "fees auto",
+                                "fees extc",
+                                "fees electrical",
+                                "fees computer",
+                                "fees mechanical",
+                                "fees automobile",
+                                "fees open fe",
+                                "fees open se",
+                                "fees open te",
+                                "fees open be"
+                        ],
+                        "responses": [
+                                "For Fee details visit https://ncet.co.in/admissions/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location or college name",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location","college name"
+                          
+                        ],
+                        "responses": [
+                                "Nagarjuna College of Engineering and Technology (NCET) is located in Devanahalli, Bengaluru, Karnataka. The specific address is:38/1, Taluk Devanahalli, Mudugurki, Venkatagirikote, Devanahalli, Bengaluru, Karnataka 562110"
+                                                                            
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                "NCET provides safe and affordable hostel facilities for boys and girls. For Girls 1,15,000 and For Boys 1,20,000 per year"
+                                                                            
+                   ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Our college organizes various events during academics.Many Events are useful for technical skils and placements activities.There are many events which are held by deparments.",
+                                "Our NCET organizes FESTIVAL every year."
+                        ],
+                        "context_set": ""
+                },
+                
+               
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "NCET has a huge and spacious library on the Ground floor and First floor "],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in college canteen",
+                                "what foods can we get in college canteen"
+                        ],
+                        "responses": [
+                                "The college canteen serves Tea, Coffee, Vada Pav,  Bread Pakoda, Thaali, Samosa, Dal Rice, Biryani and many more dishes."
+                        ],
+                        "context_set": ""
+                },
+                
+                
+               
+                {
+                      "tag": "csehod",
+                      "patterns": [
+                              "Who is CSE HOD",
+                              "Where is CSE HOD",
+                              "CSE hod",
+                              "name of CSE hod"
+                      ],
+                      "responses": [
+                              "Dr. Mallikarjun M Kodabagi Hod Of CSE  "]
+                },
+               
+               
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities CSE provide",
+                                "CSE facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "NCET provides Labs with internet connection, smart classroom, Auditorium, library,canteen. Labs are equipped with modern technologies. Also there is bus facility for the students and faculty for  more information https://ncet.co.in/cse-department/"
+                        ],
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "NCET does not have uniform or not have any dress code"
+                        ],
+                        "context_set": ""
+                },
+                {
+                    "tag": "principal",
+                    "patterns": [
+                      "Who is the principal of NCET?",
+                      "Can you tell me the principal of NCET?",
+                      "Who is the head of NCET?",
+                      "Name the principal of NCET.",
+                      "Who leads NCET?",
+                      "Who is the current principal of NCET?",
+                      "Principal of NCET?",
+                      "Tell me about the principal of NCET.",
+                      "Who is the main authority at NCET?",
+                      "Who is Dr. B V Ravishankar?","Principal"
+                    ],
+                    "responses": [
+                      "Dr. B V Ravishankar is the Principal of NCET."
+                    ]
+                  },
+                  {
+                    "tag": "chairman",
+                    "patterns": [
+                      "Who is the chairman?",
+                      "Can you tell me the chairman?",
+                      "Who is the head chairman?",
+                      "Name the chairman.",
+                      "Who leads the board?",
+                      "Who is the current chairman?",
+                      "Chairman?",
+                      "Tell me about the chairman.",
+                      "Who is the main authority?",
+                      "Who is the chairman of NCET?"
+                    ],
+                    "responses": [
+                      "The chairman is Sri. J V Ranga Raju"
+                    ]
+                  },
+                
+                
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+                        ]
+    
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD it)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "dtc bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling"    
+                        ],
+                        "responses":[
+                                "NCET provides bus facility to students through various places."
+                        ]
+                },
+                {
+                        "tag":"scholarship",
+                        "patterns":[
+                                "scholarship",
+                                "Is scholarship available",
+                                "scholarship engineering",
+                                "scholarship fe",
+                                "scholarship se",
+                                "scholarship te",
+                                "scholarship be",
+                                "available scholarships",
+                                "scholarship for computer engineering",
+                                "scholarship for automobile engineering",
+                                "scholarship for IT engineering",
+                                "scholarship for mechanical engineering",
+                                "scholarship for civil engineering",
+                                "scholarship for extc engineering",
+                                "scholarship for electrical engineering",
+                                "list of scholarship",
+                                "comps scholarship",
+                                "IT scholarship",
+                                "mechanical scholarship",
+                                "civil scholarship",
+                                "electrical scholarship",
+                                "extc scholarship",
+                                "automobile scholarship",
+                                "first year scholarship",
+                                "second year scholarship",																				
+                                "third year scholarship",
+                                "fourth year scholarship"
+                        ],
+                        "responses":[
+                                "Many government scholarships are supported by NCET."
+                        ]
+                },
+                {
+                        "tag":"faculty",
+                        "patterns":[
+                                "faculty",
+                                "faculty details",
+                                "faculty fe",
+                                "faculty se",
+                                "faculty te",
+                                "faculty be",
+                                "computer faculty",
+                                "IT faculty",
+                                "mechanical faculty",
+                                "automobile faculty",
+                               
+                                "engineering faculty",
+                                "list of faculty",
+                                "first year faculty",
+                                "second year faculty",
+                                "third year faculty",
+                                "fourth year  faculty",
+                                "give faculty details",
+                                "tell me about the faculty",
+                                "how is the faculty",
+                                "staff",
+                                "please give information about faculty",
+                                "faculty information",
+                                "faculty?"
+                        ],
+                        "responses":[
+                                {
+    
+    "table": [
+    {
+      "name": "Dr. Mallikarjun M Kodabagi",
+      "designation": "Professor & HOD",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Rajkumar",
+      "designation": "Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Pankaja K",
+      "designation": "Associate Professor & HOD",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Gopinath A R",
+      "designation": "Associate Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Swathi S",
+      "designation": "Associate Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Sudhakara Reddy M",
+      "designation": "Associate Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Shilpashree S",
+      "designation": "Associate Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Prasanna Lakshmi G S",
+      "designation": "Associate Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Dr. Bhargava R",
+      "designation": "Associate Professor",
+      "qualifications": ["BE", "M. Tech", "PhD"]
+    },
+    {
+      "name": "Prof. Vidya V",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech", "(PhD)"]
+    },
+    {
+      "name": "Prof. Raghavendra B",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Abraham Rajan",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech", "(PhD)"]
+    },
+    {
+      "name": "Prof. Swathi N",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech", "(PhD)"]
+    },
+    {
+      "name": "Prof. Prathibha Pujari",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Bhoomika K S",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Likhitha",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Narendra N",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech", "(PhD)"]
+    },
+    {
+      "name": "Prof. Samhitha S B",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Koushika K H",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Kavitha S",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Praveenraj",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech"]
+    },
+    {
+      "name": "Prof. Mohan Gowda G S",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech", "(PhD)"]
+    },
+    {
+      "name": "Mrs. Mehar Afroz",
+      "designation": "Assistant Professor",
+      "qualifications": ["BE", "M. Tech", "(PhD)"]
+    }
+    ]
+    }
+    
+                        ]
+                },{
+                "tag": "show_student_table",
+      "patterns": [
+        "Show third-year CSE students in a table.",
+        "Table of third-year CSE students' names and USNs.",
+        "List third-year CSE students in a table.",
+        "Display third-year CSE names and USNs in a table.",
+        "Third-year CSE students' details in table format.",
+        "Show names and USNs of third-year CSE students as a table.",
+        "Table format for third-year CSE student details.",
+        "Give me a table of third-year CSE students.",
+        "Table of names and USNs for third-year CSE.",
+        "Provide third-year CSE students' information in a table."
+      ],
+      "responses": [
+      {
+    
+        "table": 
+        [
+                {"USN": "1NC21CS001", "Candidate Name": "ABHINAW KUMAR", "Gender": "MALE"},
+                {"USN": "1NC21CS002", "Candidate Name": "ADABALA SRI LOKESH", "Gender": "MALE"},
+                {"USN": "1NC21CS003", "Candidate Name": "AFSHA SULTHANA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS004", "Candidate Name": "AJAY BENKAP", "Gender": "MALE"},
+                {"USN": "1NC21CS005", "Candidate Name": "AKHIL REDDY", "Gender": "MALE"},
+                {"USN": "1NC21CS006", "Candidate Name": "AKSHAY H K", "Gender": "MALE"},
+                {"USN": "1NC21CS007", "Candidate Name": "AMISHA GUPTA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS008", "Candidate Name": "AMRUTHAVARSHINI P", "Gender": "FEMALE"},
+                {"USN": "1NC21CS009", "Candidate Name": "ANANYASHREE K G", "Gender": "FEMALE"},
+                {"USN": "1NC21CS010", "Candidate Name": "ANIL KUMAR PASALA", "Gender": "MALE"},
+                {"USN": "1NC21CS011", "Candidate Name": "ANKIRAPALLE NISSI SRUJANA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS012", "Candidate Name": "ANSHU KUMAR", "Gender": "MALE"},
+                {"USN": "1NC21CS013", "Candidate Name": "ANUSHA M", "Gender": "FEMALE"},
+                {"USN": "1NC21CS014", "Candidate Name": "ARCHANA C", "Gender": "FEMALE"},
+                {"USN": "1NC21CS015", "Candidate Name": "ASHISH RANJAN", "Gender": "MALE"},
+                {"USN": "1NC21CS016", "Candidate Name": "ASHWATHNARAYANAREDDY K", "Gender": "MALE"},
+                {"USN": "1NC21CS017", "Candidate Name": "B CHANDRASHEKHAR", "Gender": "MALE"},
+                {"USN": "1NC21CS018", "Candidate Name": "B DHANASREE", "Gender": "FEMALE"},
+                {"USN": "1NC21CS019", "Candidate Name": "BHAVYA M", "Gender": "FEMALE"},
+                {"USN": "1NC21CS020", "Candidate Name": "BUSIREDDY MADHU REDDY", "Gender": "MALE"},
+                {"USN": "1NC21CS021", "Candidate Name": "BUSIREDDY SUMAN REDDY", "Gender": "MALE"},
+                {"USN": "1NC21CS022", "Candidate Name": "CHANDAN R M", "Gender": "MALE"},
+                {"USN": "1NC21CS023", "Candidate Name": "CHINMAYEE S", "Gender": "FEMALE"},
+                {"USN": "1NC21CS024", "Candidate Name": "DARSHAN GN", "Gender": "MALE"},
+                {"USN": "1NC21CS025", "Candidate Name": "DARSHAN REDDY V", "Gender": "MALE"},
+                {"USN": "1NC21CS026", "Candidate Name": "DEEPA MALAPPA PUJARI", "Gender": "FEMALE"},
+                {"USN": "1NC21CS027", "Candidate Name": "DEEPTHI REDDY C", "Gender": "FEMALE"},
+                {"USN": "1NC21CS028", "Candidate Name": "DEVA K", "Gender": "MALE"},
+                {"USN": "1NC21CS029", "Candidate Name": "DIVYA S", "Gender": "FEMALE"},
+                {"USN": "1NC21CS030", "Candidate Name": "FAMEEZ M S", "Gender": "MALE"},
+                {"USN": "1NC21CS031", "Candidate Name": "GIRISH V", "Gender": "MALE"},
+                {"USN": "1NC21CS032", "Candidate Name": "GUNNAM HARI RAMA KRISHNA", "Gender": "MALE"},
+                {"USN": "1NC21CS033", "Candidate Name": "GURRAM LOKESH", "Gender": "MALE"},
+                {"USN": "1NC21CS034", "Candidate Name": "GYAN PRAKASH", "Gender": "MALE"},
+                {"USN": "1NC21CS035", "Candidate Name": "HARISH GOWDA R", "Gender": "MALE"},
+                {"USN": "1NC21CS036", "Candidate Name": "HARSHITH M", "Gender": "MALE"},
+                {"USN": "1NC21CS037", "Candidate Name": "HARSHITHA C", "Gender": "FEMALE"},
+                {"USN": "1NC21CS038", "Candidate Name": "HARSHITHA D", "Gender": "FEMALE"},
+                {"USN": "1NC21CS039", "Candidate Name": "HEMANTH S", "Gender": "MALE"},
+                {"USN": "1NC21CS040", "Candidate Name": "HEMANTH S", "Gender": "MALE"},
+                {"USN": "1NC21CS041", "Candidate Name": "HUSNAAPARVEEN A", "Gender": "FEMALE"},
+                {"USN": "1NC21CS042", "Candidate Name": "JAYASHREEJ", "Gender": "FEMALE"},
+                {"USN": "1NC21CS043", "Candidate Name": "KAMMARACHEDU SWAPNA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS044", "Candidate Name": "KANCHI SAIPRIYANKA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS045", "Candidate Name": "KANDIKATLA DEVIKA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS046", "Candidate Name": "KIRANKUMAR N", "Gender": "MALE"},
+                {"USN": "1NC21CS047", "Candidate Name": "KOMMURI SAI KIRAN REDDY", "Gender": "MALE"},
+                {"USN": "1NC21CS049", "Candidate Name": "KUNJAL KEDIA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS050", "Candidate Name": "LAIKHA KHANUM", "Gender": "FEMALE"},
+                {"USN": "1NC21CS051", "Candidate Name": "LIKHITA", "Gender": "FEMALE"},
+                {"USN": "1NC21CS052", "Candidate Name": "LIKHITH L", "Gender": "MALE"},
+                {"USN": "1NC21CS053", "Candidate Name": "LIKHITHA R", "Gender": "FEMALE"},
+                {"USN": "1NC21CS054", "Candidate Name": "M CHANDRASHEKARA", "Gender": "MALE"},
+                {"USN": "1NC21CS055", "Candidate Name": "M V MANOJ KUMAR", "Gender": "MALE"},
+                {"USN": "1NC21CS056", "Candidate Name": "MANU K H", "Gender": "MALE"},
+                {"USN": "1NC21CS057", "Candidate Name": "MANVANTH J", "Gender": "MALE"},
+                {"USN": "1NC21CS058", "Candidate Name": "MOHAMMED MUSAIB", "Gender": "MALE"},
+                {"USN": "1NC21CS059", "Candidate Name": "MONIKA T M", "Gender": "FEMALE"},
+                {"USN": "1NC21CS060", "Candidate Name": "N C SHANMUKA SAI KUMAR", "Gender": "MALE"},
+                {"USN": "1NC21CS061", "Candidate Name": "NAYANA R", "Gender": "FEMALE"},
+                {"USN": "1NC21CS062", "Candidate Name": "NISHANT KUMAR", "Gender": "MALE"},
+                {"USN": "1NC21CS063", "Candidate Name": "NITHISH GOWDA G A", "Gender": "MALE"},
+                {"USN": "1NC21CS064", "Candidate Name": "P MANJUNATH", "Gender": "MALE"},
+                {"USN": "1NC21CS065", "Candidate Name": "PALALA LEKHA PATHIPATI", "Gender": "FEMALE"},
+                
+
+    {"USN": "1NC21CS066", "Candidate Name": "PARASHURAMASINGH", "Gender": "MALE"},
+    {"USN": "1NC21CS067", "Candidate Name": "LIJITHA", "Gender": "FEMALE"},
+    {"USN": "1NC21CS068", "Candidate Name": "PAVAN M PIDUGU", "Gender": "MALE"},
+    {"USN": "1NC21CS069", "Candidate Name": "RISHITHA", "Gender": "FEMALE"},
+    {"USN": "1NC21CS070", "Candidate Name": "POOLA MOHAN REDDY", "Gender": "MALE"},
+    {"USN": "1NC21CS072", "Candidate Name": "PRAJWAL HOLLA ", "Gender": "MALE"},
+    {"USN": "1NC21CS073", "Candidate Name": "PRAJWAL S", "Gender": "MALE"},
+    {"USN": "1NC21CS074", "Candidate Name": "PRAKRUTHIDJ", "Gender": "FEMALE"},
+    {"USN": "1NC21CS075", "Candidate Name": "PRIYADARSHINI A", "Gender": "FEMALE"},
+    {"USN": "1NC21CS076", "Candidate Name": "PRIYANKA H", "Gender": "FEMALE"},
+    {"USN": "1NC21CS077", "Candidate Name": "PRIYANKA L N", "Gender": "FEMALE"},
+    {"USN": "1NC21CS078", "Candidate Name": "PUNEETHRAJ M R", "Gender": "MALE"},
+    {"USN": "1NC21CS079", "Candidate Name": "PUNITH N", "Gender": "MALE"},
+    {"USN": "1NC21CS080", "Candidate Name": "PUTTI KEERTHI", "Gender": "FEMALE"},
+    {"USN": "1NC21CS081", "Candidate Name": "RACHANA U", "Gender": "FEMALE"},
+    {"USN": "1NC21CS082", "Candidate Name": "RADHIKA R", "Gender": "FEMALE"},
+    {"USN": "1NC21CS083", "Candidate Name": "RAGHAVARAJU SUPRIYA", "Gender": "FEMALE"},
+    
+    {"USN": "1NC21CS085", "Candidate Name": "RAVICHANDRA M ", "Gender": "MALE"},
+    {"USN": "1NC21CS086", "Candidate Name": "ROOPA S", "Gender": "MALE"},
+    {"USN": "1NC21CS087", "Candidate Name": " S KUSUMA", "Gender": "FEMALE"},
+    {"USN": "1NC21CS088", "Candidate Name": "S MAYA", "Gender": "FEMALE"},
+    {"USN": "1NC21CS089", "Candidate Name": "SHARATH", "Gender": "MALE"},
+    {"USN": "1NC21CS090", "Candidate Name": "SACHIN SHIVAPPA SALI", "Gender": "MALE"},
+    {"USN": "1NC21CS091", "Candidate Name": "SAHANA V IYER", "Gender": "FEMALE"},
+    {"USN": "1NC21CS092", "Candidate Name": "SAI GAYATHRI G", "Gender": "FEMALE"},
+    {"USN": "1NC21CS093", "Candidate Name": "SAI THEJAS M", "Gender": "MALE"},
+    {"USN": "1NC21CS094", "Candidate Name": "SAM AUSTIN ", "Gender": "MALE"},
+    {"USN": "1NC21CS095", "Candidate Name": "SAMRUDDHI R", "Gender": "FEMALE"},
+    {"USN": "1NC21CS096", "Candidate Name": "SAMVID ROY", "Gender": "MALE"},
+    {"USN": "1NC21CS097", "Candidate Name": "SANDHYA SIMPI", "Gender": "FEMALE"},
+    {"USN": "1NC21CS098", "Candidate Name": "SANJU K H", "Gender": "MALE"},
+    {"USN": "1NC21CS099", "Candidate Name": "SATHISH E", "Gender": "MALE"},
+    {"USN": "1NC21CS100", "Candidate Name": " SATHYAPRAGNA M L", "Gender": "MALE"},
+    {"USN": "1NC21CS101", "Candidate Name": "SHREYAS S", "Gender": "MALE"},
+    {"USN": "1NC21CS102", "Candidate Name": "SHREYASI BISVVAS", "Gender": "FEMALE"},
+    {"USN": "1NC21CS103", "Candidate Name": "SHRISH VARDHAN", "Gender": "MALE"},
+    {"USN": "1NC21CS105", "Candidate Name": "SINCHANA", "Gender": "FEMALE"},
+    {"USN": "1NC21CS106", "Candidate Name": "SNEHA B R", "Gender": "FEMALE"},
+    {"USN": "1NC21CS107", "Candidate Name": "SRINIVAS R", "Gender": "MALE"},
+    {"USN": "1NC21CS108", "Candidate Name": "SUHANA RUKSAR", "Gender": "FEMALE"},
+    {"USN": "1NC21CS109", "Candidate Name": "SUHANI", "Gender": "FEMALE"},
+    {"USN": "1NC21CS111", "Candidate Name": "SUKRUTH S", "Gender": "MALE"},
+    {"USN": "1NC21CS112", "Candidate Name": "SUPRITA VITTAL PUJAR", "Gender": "FEMALE"},
+    {"USN": "1NC21CS113", "Candidate Name": "SURABHI GOWDA", "Gender": "FEMALE"},
+    {"USN": "1NC21CS114", "Candidate Name": "SUVESH KUMAR", "Gender": "MALE"},
+    {"USN": "1NC21CS115", "Candidate Name": "T M RAGHUNATH", "Gender": "MALE"},
+    
+    {"USN": "1NC21CS116", "Candidate Name": "TANISH MAHAJAN", "Gender": "MALE"},
+    {"USN": "1NC21CS117", "Candidate Name": "TEJASHWINI M", "Gender": "FEMALE"},
+    {"USN": "1NC21CS118", "Candidate Name": "TEJASHWINI Y", "Gender": "FEMALE"},
+    
+    {"USN": "1NC21CS119", "Candidate Name": "UBAIR AHMAD SHAGOO", "Gender": "MALE"},
+    {"USN": "1NC21CS120", "Candidate Name": "VARNITHA M", "Gender": "FEMALE"},
+    {"USN": "1NC21CS121", "Candidate Name": "VARSHITHA M R", "Gender": "FEMALE"},
+    {"USN": "1NC21CS122", "Candidate Name": "VINAYAK GODI", "Gender": "MALE"},
+    
+    {"USN": "1NC21CS123", "Candidate Name": "VIVEK H S", "Gender": "MALE"},
+    {"USN": "1NC21CS124", "Candidate Name": "YARAVA CHARAN REDDY", "Gender": "MALE"},
+    {"USN": "1NC21CS125", "Candidate Name": "YASHASWINI G E", "Gender": "FEMALE"},
+    {"USN": "1NC21CS126", "Candidate Name": "YUKTHA U", "Gender": "FEMALE"},
+    {"USN": "1NC21CS127", "Candidate Name": "ZAHID RASOOL", "Gender": "MALE"},
+    {"USN": "1NC22CS400", "Candidate Name": "ARPITHA", "Gender": "FEMALE"},
+    {"USN": "1NC22CS401", "Candidate Name": "BASAVARAJ V TALAWAR", "Gender": "MALE"},
+    {"USN": "1NC22CS402", "Candidate Name": "CHETHAN R D", "Gender": "MALE"},
+    {"USN": "1NC22CS403", "Candidate Name": "CHIDU S D", "Gender": "MALE"},
+    {"USN": "1NC22CS404", "Candidate Name": "JEEVAN R", "Gender": "MALE"},
+    {"USN": "1NC22CS405", "Candidate Name": "KAMMA GIRINAIDU C", "Gender": "MALE"},
+    {"USN": "1NC22CS406", "Candidate Name": "MALLIKARJUN BASAPPA GOUDAR", "Gender": "MALE"},
+    {"USN": "1NC22CS407", "Candidate Name": "PADMA PATIL", "Gender": "FEMALE"},
+    {"USN": "1NC22CS409", "Candidate Name": "RANJAN K S", "Gender": "MALE"},
+    {"USN": "1NC22CS410", "Candidate Name": "SHIVAPRASAD YADAVANNAVAR", "Gender": "MALE"},
+    {"USN": "1NC22CS411", "Candidate Name": "UDAYARAVI R", "Gender": "MALE"},
+    {"USN": "1NC22CS412", "Candidate Name": "VIDYASHREE H R", "Gender": "FEMALE"}
+
+]
+}  
+      ]   },
+      {  "tag": "placement_table",
+      "patterns": [
+          "How are the placements in the college?",
+          "Tell me about the college placements.",
+          "What is the placement record?","placement"], 
+          "responses": [
+                {
+              
+                  "table": 
+                  [ 
+                        {
+                            "Student Name": "Lavanya Saidu",
+                            "University Serial No.": "INC17C5049",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        {
+                            "Student Name": "Aasif Wani",
+                            "University Serial No.": "INC19CS001",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        {
+                            "Student Name": "Abhay Raj",
+                            "University Serial No.": "INC19CS002",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        
+                       
+                        {
+                            "Student Name": "Achintya Krishna",
+                            "University Serial No.": "INC19CS003",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        
+                        {
+                            "Student Name": "Aditya",
+                            "University Serial No.": "INC19CS004",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "SAGILITY",
+                            "Employer Website": "https://sagilityhealth.com",
+                            "Date of Interview": "03-03-2023",
+                            "Date of Appointment Letter": "02-05-2023"
+                        },
+                        {
+                            "Student Name": "Aditya Ranjan",
+                            "University Serial No.": "INC19CS005",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        {
+                            "Student Name": "Akhil Sai E",
+                            "University Serial No.": "INC19CS006",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                       
+                        {
+                            "Student Name": "Amit Kumar",
+                            "University Serial No.": "INC19CS008",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "COGNIZANT",
+                            "Employer Website": "www.cognizant.com",
+                            "Date of Interview": "10-09-2022",
+                            "Date of Appointment Letter": "25-11-2022"
+                        },
+                        {
+                            "Student Name": "Anjali Raj",
+                            "University Serial No.": "INC19CS010",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "COGNIZANT",
+                            "Employer Website": "www.cognizant.com",
+                            "Date of Interview": "10-09-2022",
+                            "Date of Appointment Letter": "25-11-2022"
+                        },
+                        {
+                            "Student Name": "Anupriya A",
+                            "University Serial No.": "INC19CS012",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        
+                        
+                        
+                        {
+                            "Student Name": "Ashreetha B",
+                            "University Serial No.": "INC19CS015",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "TRAN SPOREON",
+                            "Employer Website": "www.transporeon.com",
+                            "Date of Interview": "29-09-2022",
+                            "Date of Appointment Letter": "21-10-2022"
+                        },
+                        {
+                            "Student Name": "Binit Kumar",
+                            "University Serial No.": "INC19CS021",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        {
+                            "Student Name": "C Krishna Sai Nandan",
+                            "University Serial No.": "INC19CS023",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                        
+                        {
+                            "Student Name": "Deepika B R",
+                            "University Serial No.": "INC19CS029",
+                            "Discipline": "CSE",
+                            "Year of Passing": 2023,
+                            "Placement Type": "ON CAMPUS",
+                            "Employer Name": "DXC",
+                            "Employer Website": "www.dxc.com",
+                            "Date of Interview": "29-07-2022",
+                            "Date of Appointment Letter": "13-10-2022"
+                        },
+                                {
+                                    "Student Name": "NAN DINl HS",
+                                    "University Serial No.": "INC19EC061",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "NAVNEET KUMAR",
+                                    "University Serial No.": "INC19EC064",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "PAVANA P M",
+                                    "University Serial No.": "INC19EC069",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "PRIYA S",
+                                    "University Serial No.": "INC19EC074",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "RAGHUNANDAN N T",
+                                    "University Serial No.": "INC19EC078",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SHRUTHA KEERTHI",
+                                    "University Serial No.": "INC19EC081",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SAIKRISHNA S",
+                                    "University Serial No.": "INC19EC084",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SANIYA S",
+                                    "University Serial No.": "INC19EC085",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SANJAY P",
+                                    "University Serial No.": "INC19EC086",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SHIREESHA K N",
+                                    "University Serial No.": "INC19EC087",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SHIVARAJ B S",
+                                    "University Serial No.": "INC19EC088",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "SNEHA KIRAGI",
+                                    "University Serial No.": "INC19EC090",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "THANUJA R.C",
+                                    "University Serial No.": "INC19EC094",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "V AISHNAV M",
+                                    "University Serial No.": "INC19EC095",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                },
+                                {
+                                    "Student Name": "ANUSHA SLA",
+                                    "University Serial No.": "INC19EC096",
+                                    "Discipline": "ECE",
+                                    "Year of Passing": 2023,
+                                    "Placement Type": "ON CAMPUS",
+                                    "Employer Name": "DXC TECHNOLOGY",
+                                    "Employer Website": "www.dxc.com",
+                                    "Date of Interview": "29-07-2022",
+                                    "Date of Appointment Letter": "13-10-2022"
+                                }
+                            ]
+                            
+                    
+                    
+                
+
+
+
+
+                }  
+                      ]   },
+                {
+                        "tag":"student portal",
+                        "patterns":[
+                                "student portal",
+                                "give student portal link",
+                                "student portal?",
+                                "where is student portal",
+                                "PHCET student portal",
+                                "how to get student portal",
+                                "where to get fees receipt",
+                                "please provide student portal link",
+                                "where to login"
+                        ],
+                        "responses":[
+                                "For student portal link visit https://nceteresults.contineo.in/"
+                        ]
+                },
+                {
+                        "tag":"parent portal",
+                        "patterns":[
+                                "parent portal",
+                                "give student parent link",
+                                "parent portal?",
+                                "where is parent portal",
+                                "NCET parent portal",
+                                "how to get parent portal",
+                                "please provide parent portal link"
+                        ],
+                        "responses":[
+                                "For parent portal link visit https://ncetparents.contineo.in/ "
+                        ]
+                },
+                {
+                        "tag":"sports",
+                        "patterns":[
+                                "sports and games",
+                                "give sports details",
+                                "sports infrastructure",
+                                "sports facilities",
+                                "PHCET sports facilities",
+                                "information about sports",
+                                "please provide sports and games information"
+                        ],
+                        "responses":[
+                                "NCET encourages all-round development of students and hence provides sports facilities in the campus."
+                        ]
+                },
+                {
+                        "tag": "campus_wifi",
+                        "patterns": [
+                            "How is the WiFi on campus?",
+                            "Is the campus WiFi reliable?",
+                            "Are there any connectivity issues with the WiFi?"
+                        ],
+                        "responses": [
+                            "The campus WiFi network is designed to provide reliable internet connectivity to students, faculty, and staff. However, occasional connectivity issues may arise, which are usually promptly addressed by the IT department."
+                        ]
+                
+            
+        
+                },
+                {
+                        "tag": "popular_clubs",
+                        "patterns": [
+                            "Which clubs and student organizations are popular?",
+                            "Are there any standout clubs on campus?",
+                            "What are some of the most active student organizations?",
+                            "clubs in ncet"
+                            
+                        ],
+                        "responses": [
+                            "Our college has a wide range of clubs and student organizations catering to diverse interests. Popular clubs include academic organizations, cultural clubs, sports teams, coding club,Robotics club, and more."
+                        ]
+                     
+        },
+            {
+                "tag": "vision and mission",
+                "patterns": [
+                    "vision and mission",
+                    "vision and mission of cse",
+                    "what are the vision and misiion of the cse",
+                    "vision and mission of ncet"
+                ],
+                "responses": [
+                    "Vision Create globally competent professionals through quality education in the field of Computer Science and Engineering.    Mission M1: Empowering students by imparting knowledge, latest technologies through practical approach and academic professionalism to fulfill the needs of the industry.   M2:Developing Technical proficiencies, communication skills and teamwork among the students.   M3:Inculcating ethics, social behavior, and universal human values for sustainable societal growth and environmental protection."
+                ]
+               
+    },
+    {
+        "tag": "default_response",
+        "patterns": [
+            "asdfghjkl", "qwertyuiop", "zxcvbnm", "randomtext1", "randomtext2", 
+            "randomtext3", "randomtext4", "randomtext5", "randomtext6", "randomtext7",
+            "randomtext8", "randomtext9", "randomtext10", "randomtext11", "randomtext12",
+            "randomtext13", "randomtext14", "randomtext15", "randomtext16", "randomtext17",
+            "randomtext18", "randomtext19", "randomtext20", "randomtext21", "randomtext22",
+            "randomtext23", "randomtext24", "randomtext25", "randomtext26", "randomtext27",
+            "randomtext28", "randomtext29", "randomtext30", "randomtext31", "randomtext32",
+            "randomtext33", "randomtext34", "randomtext35", "randomtext36", "randomtext37",
+            "randomtext38", "randomtext39", "randomtext40", "randomtext41", "randomtext42",
+            "randomtext43", "randomtext44", "randomtext45", "randomtext46", "randomtext47",
+            "randomtext48", "randomtext49", "randomtext50", "randomtext51", "randomtext52",
+            "randomtext53", "randomtext54", "randomtext55", "randomtext56", "randomtext57",
+            "randomtext58", "randomtext59", "randomtext60", "randomtext61", "randomtext62",
+            "randomtext63", "randomtext64", "randomtext65", "randomtext66", "randomtext67",
+            "randomtext68", "randomtext69", "randomtext70", "randomtext71", "randomtext72",
+            "randomtext73", "randomtext74", "randomtext75", "randomtext76", "randomtext77",
+            "randomtext78", "randomtext79", "randomtext80", "randomtext81", "randomtext82",
+            "randomtext83", "randomtext84", "randomtext85", "randomtext86", "randomtext87",
+            "randomtext88", "randomtext89", "randomtext90", "randomtext91", "randomtext92",
+            "randomtext93", "randomtext94", "randomtext95", "randomtext96", "randomtext97",
+            "randomtext98", "randomtext99 and randomtext100"
+        ],
+        "responses": ["I am not able to answer this question."]
+}
+
+        ]
+                
+    }
